@@ -32,7 +32,7 @@ First of all, clone the GitHub project and run the script create_flask_web to ge
     cd freshonions-torscraper/scripts/
     ./create_flask_secret.sh
 
-Once your flask secet is create, you should see this confirmation message:
+Once your flask secret is created, you should see this confirmation message:
 > ('Directory ', '/your/path/freshonions-torscraper/etc/private/', ' Created ')
 Written flask secret to '/your/path/freshonions-torscraper/etc/private/flask.secret'
 
