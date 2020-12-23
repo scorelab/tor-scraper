@@ -32,7 +32,7 @@ First of all, clone the GitHub project and run the script create_flask_web to ge
     cd freshonions-torscraper/scripts/
     ./create_flask_secret.sh
 
-Once your flask secet is create, you should see this confirmation message:
+Once your flask secret is created, you should see this confirmation message:
 > ('Directory ', '/your/path/freshonions-torscraper/etc/private/', ' Created ')
 Written flask secret to '/your/path/freshonions-torscraper/etc/private/flask.secret'
 
@@ -58,7 +58,7 @@ Now you supposed to have a terminal in the container. So we will run the script 
     cd scripts
     ./elasticsearch_migrate.sh
 
-It will Initialize Elasticsearch database.
+It will initialize Elasticsearch database.
 
 
 In the crawler container, it has a script that will crawl automatically (docker_haproxy_harvest_scrape.sh). This script restart the haproxy service (repartition of request), start harvest (search all onions site in the list of website that we provide) and after that it scrape all of them (Find bitcoin address, Email, link between onions, and save the data of website to the Elasticsearch and the database). Once this script finishes his execution, it will start over.
