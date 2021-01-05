@@ -1,5 +1,10 @@
 # Fresh Onions TOR Hidden Service Crawler
 
+- [Features](#features)
+- [Licence](#licence)
+- [Docker installation](#docker-installation)
+- [Infrastructure](#infrastructure)
+
 ## Features
 
 * Crawls the darknet looking for new hidden service
